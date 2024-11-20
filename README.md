@@ -13,7 +13,7 @@ A simple, responsive weather application that fetches real-time weather data usi
 
 ## Technologies Used 🛠️
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: Android
 - **API**: [(https://www.weatherapi.com/)]
 - **Version Control**: Git
 
