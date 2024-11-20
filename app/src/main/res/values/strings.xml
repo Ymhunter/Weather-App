@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="select_a_city">Select a city</string>
+    <string name="C">32 ℃</string>
+    <string name="condition">Sunny</string>
+    <string name="humidity">Humidity</string>
+    <string name="uv_index">UV Index</string>
+    <string name="cloudiness">Cloudiness</string>
+</resources>
