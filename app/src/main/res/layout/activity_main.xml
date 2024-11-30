@@ -11,7 +11,7 @@
     <View
         android:id="@+id/topSpace"
         android:layout_width="match_parent"
-        android:layout_height="76dp"
+        android:layout_height="46dp"
         android:visibility="visible" />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -24,6 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="28dp"
         android:fontFamily="@font/montserrat"
         android:text="@string/select_a_city"

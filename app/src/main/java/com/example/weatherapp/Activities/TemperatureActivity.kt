@@ -22,6 +22,7 @@ class TemperatureActivity : AppCompatActivity() {
         binding = ActivityTemperatureBinding.inflate(layoutInflater)
         setContentView(binding.root)
         observerState()
+        configureToolbar()
     }
 
     private fun observerState() {
@@ -46,6 +47,10 @@ class TemperatureActivity : AppCompatActivity() {
     }
     private fun city(): String {
         return intent.getParcelableExtra<City>(KEY_CITY)!!.nameCity
+    }
+    private fun configureToolbar() {
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = ""
     }
 
     private fun showWeather(weather: Weather?) {

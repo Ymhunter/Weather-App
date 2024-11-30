@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView?.setHasFixedSize(true)
 
         observerState()
-        configureToolbar()
+
     }
     private fun observerState() {
         lifecycleScope.launch {
@@ -50,10 +50,7 @@ class MainActivity : AppCompatActivity() {
     private fun showTemperature(city: City) {
         startActivity(intent(this, city))
     }
-    private fun configureToolbar() {
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = ""
-    }
+
     companion object {
         private const val KEY_CITY = "CITY_NAME"
 
