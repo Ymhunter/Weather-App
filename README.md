@@ -1,6 +1,6 @@
 # Weather App 🌦️
 
-A simple, responsive weather application that fetches real-time weather data using an external API. Users can view current weather conditions, temperature, humidity, and other details for any city around the world.
+A simple, responsive weather application that fetches real-time weather data using an external API. Users can view current weather conditions, temperature, humidity, and other details for several cities around the world.
 
 ---
 
